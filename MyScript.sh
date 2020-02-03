@@ -82,3 +82,19 @@ case "$Answer" in
   echo "Please enter y/yes or n/no"
    ;;
 esac
+
+#FOR Loop
+Names="Subhayu Taran Shashwat Dhananjay"
+for name in $Names
+ do
+   echo "Hello $name"
+  done
+
+#FOR Loop to rename Files
+Files=$(ls *.txt)
+New="new"
+for file in $Files
+  do
+    echo "Renaming $file to new-$file"
+    mv $file $New-$file
+  done
