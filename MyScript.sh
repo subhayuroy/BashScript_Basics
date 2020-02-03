@@ -98,3 +98,12 @@ for file in $Files
     echo "Renaming $file to new-$file"
     mv $file $New-$file
   done
+
+#WHILE Loop
+#Read through a file line-by-line
+Line=1
+while read -r Current_Line
+  do
+    echo "$Line: $Current_Line"
+    ((Line++))
+  done < "./new-1.txt"
