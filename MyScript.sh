@@ -106,4 +106,25 @@ while read -r Current_Line
   do
     echo "$Line: $Current_Line"
     ((Line++))
-  done < "./new-1.txt"
+  done < "./new-new-1.txt"
+
+#Function
+function sayHello() {
+    echo "Hello everyone"
+}
+
+sayHello
+
+#Function parameter
+function welcome() {
+  echo "Hello, I am $1 and I welcome $2"
+}
+read -p "Enter your name= " NM
+read -p "You are welcoming whom? " WN
+welcome $NM $WN
+
+#Create folder and Write to a file
+mkdir Work
+touch "Work/Tough.txt"
+echo "Hello World" >> "Work/Tough.txt"
+echo "Created Work/"
