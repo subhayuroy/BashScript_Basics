@@ -128,3 +128,14 @@ mkdir Work
 touch "Work/Tough.txt"
 echo "Hello World" >> "Work/Tough.txt"
 echo "Created Work/"
+
+#Calculate 2^5
+base=2
+power=5
+for((i=1;i<=$power;i++))
+    do
+      base=$((base * base))
+    done
+echo "The term is $base"
+
+#  https://www.log2base2.com/shell-script-examples/operator/shell-script-for-multiplication-of-two-numbers.html
