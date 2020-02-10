@@ -137,5 +137,3 @@ for((i=1;i<=$power;i++))
       base=$((base * base))
     done
 echo "The term is $base"
-
-#  https://www.log2base2.com/shell-script-examples/operator/shell-script-for-multiplication-of-two-numbers.html
