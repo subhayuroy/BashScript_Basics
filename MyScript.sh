@@ -54,9 +54,9 @@ fi
 FILE="test.txt"
 if [ -e "$FILE" ]
 then
- echo "$FILE exists"
+  echo "$FILE exists"
 else
- echo "$FILE does not exists"
+  echo "$FILE does not exists"
 fi
 
 # -d file TRUE if file is a directory
