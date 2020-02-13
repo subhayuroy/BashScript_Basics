@@ -27,9 +27,9 @@ fi
 if [ "$Name" == "Subhayu" ]
 then
 	echo "Your name is Subh"
-elif [ "$Name" == "Raj" ]
+elif [ "$Name" == "Rajesh" ]
 then
-	echo "Your name is Raj"
+	echo "Your name is Rajesh"
 else
 	echo "Your name is neither Subh nor Raj"
 fi
