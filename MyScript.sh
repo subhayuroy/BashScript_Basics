@@ -4,6 +4,7 @@ echo Hi I am Subhayu!
 #Variables - they should be uppercase(by convention)
 NAME="Subhayu"
 echo "My name is ${NAME}"
+echo "My name is $NAME"
 
 #User-input
 read -p "Enter your name: " Name
