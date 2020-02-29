@@ -138,3 +138,13 @@ for((i=1;i<=$power;i++))
       base=$((base * base))
     done
 echo "The term is $base"
+
+for i in {1..10}; do
+     echo "Hello World!"
+done
+
+#For PowerShell:
+for ($i=1; $i -le 10; $i++)
+{
+	Write-Host "Hello World!"
+}
