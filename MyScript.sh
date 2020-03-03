@@ -84,6 +84,8 @@ case "$Answer" in
    ;;
 esac
 
+read char; echo -e "YES\nNO\n" | grep -i $char
+
 #FOR Loop
 Names="Subhayu Taran Shashwat Dhananjay"
 for name in $Names
