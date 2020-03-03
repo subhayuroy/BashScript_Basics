@@ -148,3 +148,10 @@ for ($i=1; $i -le 10; $i++)
 {
 	Write-Host "Hello World!"
 }
+
+
+read X
+read Y
+printf "%s\n" $X{+,-,*,/}"($Y)" | bc
+
+#echo "$(($X + $Y))"
